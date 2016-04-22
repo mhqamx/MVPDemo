@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIAlertView+show.h
 //  MVPDemo
 //
 //  Created by YISHANG on 16/4/22.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface UIAlertView (show)
++ (void)showAlertWithTitle:(NSString *)title;
 @end
-
